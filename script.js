@@ -2,8 +2,7 @@ const $ = (selector, root=document) => root.querySelector(selector);
 const $$ = (selector, root=document) => [...root.querySelectorAll(selector)];
 $('#year').textContent = new Date().getFullYear();
 
-// Update both contact actions in one place. Replace this placeholder with the real
-// number in international format, digits only, e.g. 919876543210.
+// Personal contact details — phone and WhatsApp use the same number.
 const CONTACT_NUMBER = '918904363770';
 const displayNumber = '+91 89043 63770';
 $('#phoneText').textContent = displayNumber;
