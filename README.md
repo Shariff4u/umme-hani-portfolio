@@ -6,6 +6,7 @@ A responsive light-theme Liquid Glass portfolio with green accents, gentle 3D de
 - `index.html` — landing page/resume overview and portfolio sections
 - `styles.css` — responsive design system and 3D/glass styling
 - `script.js` — scroll effects, menu, filters and contact links
+- `resume.pdf` — downloadable resume PDF based on the supplied resume details
 
 ## Publish on GitHub Pages
 1. Upload these files to the **root** of your repository (`index.html`, `styles.css`, `script.js`).
@@ -14,10 +15,10 @@ A responsive light-theme Liquid Glass portfolio with green accents, gentle 3D de
 4. Wait for the Pages deployment to finish green. Open the URL shown in Settings → Pages.
 
 ## Important edits before publishing
-1. In `script.js`, replace `CONTACT_NUMBER = '910000000000'` with your real number in international format, digits only. Example format: `919876543210` (no `+`, spaces or dashes). Call and WhatsApp will use the same number.
-2. Add your final resume PDF to the repository root and name it `resume.pdf`. The resume download button points to that file.
-3. Confirm the education year and career details. The current timeline keeps the education year unconfirmed instead of inventing one.
-4. Replace the illustrative portfolio examples with genuine, approved work samples before describing them as completed client projects.
+1. Call and WhatsApp buttons use the phone number listed in your supplied resume.
+2. `resume.pdf` is included and linked from the resume section.
+3. Review the education year and career details before sending this publicly.
+4. Replace illustrative portfolio examples with genuine, approved work samples before describing them as completed client projects.
 
 ## Image notes
 The project uses illustrative images served from Unsplash URLs. They are loaded from the image host, so the site requires an internet connection to display them. Replace them with your own licensed/approved images when available.

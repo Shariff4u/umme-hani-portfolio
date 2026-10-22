@@ -4,8 +4,8 @@ $('#year').textContent = new Date().getFullYear();
 
 // Update both contact actions in one place. Replace this placeholder with the real
 // number in international format, digits only, e.g. 919876543210.
-const CONTACT_NUMBER = '910000000000';
-const displayNumber = CONTACT_NUMBER === '910000000000' ? 'Add your number' : '+' + CONTACT_NUMBER;
+const CONTACT_NUMBER = '918904363770';
+const displayNumber = '+91 89043 63770';
 $('#phoneText').textContent = displayNumber;
 $('#callLink').href = 'tel:+' + CONTACT_NUMBER;
 $('#whatsappLink').href = 'https://wa.me/' + CONTACT_NUMBER;
