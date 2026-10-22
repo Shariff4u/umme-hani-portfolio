@@ -1,26 +1,26 @@
-# Umme Hani S. — Personal Landing Page & Portfolio
+# Umme Hani S. — Portfolio v2
 
-A responsive static website built with HTML, CSS, and vanilla JavaScript.
+A responsive light-theme Liquid Glass portfolio with green accents, gentle 3D depth, scroll reveals, a scroll progress indicator, responsive navigation and portfolio filters.
 
 ## Files
-- `index.html` — page content and metadata
-- `styles.css` — responsive visual design
-- `script.js` — mobile navigation and footer year
+- `index.html` — landing page/resume overview and portfolio sections
+- `styles.css` — responsive design system and 3D/glass styling
+- `script.js` — scroll effects, menu, filters and contact links
 
-## Preview locally
-Open `index.html` in a browser. Internet is only needed for the optional Google Fonts import.
+## Publish on GitHub Pages
+1. Upload these files to the **root** of your repository (`index.html`, `styles.css`, `script.js`).
+2. Open **Settings → Pages**.
+3. Under **Build and deployment**, select **Deploy from a branch**, branch `main`, folder `/(root)`, then Save.
+4. Wait for the Pages deployment to finish green. Open the URL shown in Settings → Pages.
 
-## Publish with GitHub Pages
-1. Create a new GitHub repository (for example, `umme-hani-portfolio`).
-2. Upload `index.html`, `styles.css`, and `script.js` to the repository root.
-3. In the repository, open **Settings → Pages**.
-4. Select **Deploy from a branch**, choose `main` and `/ (root)`, then save.
-5. GitHub Pages will show the published site URL after deployment.
+## Important edits before publishing
+1. In `script.js`, replace `CONTACT_NUMBER = '910000000000'` with your real number in international format, digits only. Example format: `919876543210` (no `+`, spaces or dashes). Call and WhatsApp will use the same number.
+2. Add your final resume PDF to the repository root and name it `resume.pdf`. The resume download button points to that file.
+3. Confirm the education year and career details. The current timeline keeps the education year unconfirmed instead of inventing one.
+4. Replace the illustrative portfolio examples with genuine, approved work samples before describing them as completed client projects.
 
-## Before publishing
-- Confirm the name, phone number, email, employment dates, and education details.
-- Replace or supplement the capability cards with real projects, screenshots, and links you have permission to share.
-- The portfolio includes a broader service catalogue. Some specialist services are coordinated and delivered by partners; do not imply you personally perform all technical implementation.
-- The portfolio capability cards are not completed client case studies.
-- Google Play Console wording is intentionally non-affiliated and does not promise approval or reinstatement.
-- Add a privacy notice only if you later add analytics, forms, or other data collection.
+## Image notes
+The project uses illustrative images served from Unsplash URLs. They are loaded from the image host, so the site requires an internet connection to display them. Replace them with your own licensed/approved images when available.
+
+## Security
+This is a static portfolio. It does not collect form submissions, passwords, or payment details. Do not add private API keys or sensitive documents. A public GitHub Pages site is public to everyone; only publish a resume and contact information you are comfortable sharing publicly. HTTPS is enforced by GitHub Pages on the default `github.io` domain.
